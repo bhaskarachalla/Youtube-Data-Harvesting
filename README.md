@@ -1,4 +1,4 @@
-             Youtube Data Harvesting and Warehouse
+             Youtube Data Harvesting and Warehouseing
 
 Part 1: Importing Necessary Libraries
 The script begins by importing libraries that are essential for different tasks it will perform:
