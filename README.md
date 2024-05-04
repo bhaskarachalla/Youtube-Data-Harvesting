@@ -1,4 +1,4 @@
-             Youtube Data Harvesting and Warehouseing
+             Youtube Data Harvesting and Warehousing
 
 Part 1: Importing Necessary Libraries
 
