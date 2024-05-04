@@ -1,6 +1,7 @@
              Youtube Data Harvesting and Warehouseing
 
 Part 1: Importing Necessary Libraries
+
 The script begins by importing libraries that are essential for different tasks it will perform:
  
 ![image](https://github.com/bhaskarachalla/Youtube-Data-Harvesting/assets/157194398/272125b9-f5c4-4626-b4f2-0b621a799d7f)
@@ -8,6 +9,7 @@ The script begins by importing libraries that are essential for different tasks 
 These libraries provide functions and tools necessary for fetching data from the YouTube API, managing databases, and creating a user interface.
 
 Part 2: Functions for Interacting with YouTube API
+
 The script defines several functions to interact with the YouTube API:
 
  ![image](https://github.com/bhaskarachalla/Youtube-Data-Harvesting/assets/157194398/6ae88e84-258d-4e77-9f24-187ae638e62a)
@@ -15,6 +17,7 @@ The script defines several functions to interact with the YouTube API:
 These functions encapsulate API requests to fetch various data such as channel information, video IDs, video details, comments, and playlist details.
 
 Part 3: Uploading Data to MongoDB
+
 The script connects to a MongoDB database and uploads channel, playlist, video, and comment information:
 
 ![image](https://github.com/bhaskarachalla/Youtube-Data-Harvesting/assets/157194398/5a193152-3b7d-4274-81e3-f888d24dddf2)
@@ -22,6 +25,7 @@ The script connects to a MongoDB database and uploads channel, playlist, video, 
  It organizes data into collections within the MongoDB database for easy retrieval and manipulation.
 
 Part 4: Uploading Data to PostgreSQL
+
 The script establishes a connection to a PostgreSQL database and creates tables for storing channel, playlist, video, and comment information:
 
 ![image](https://github.com/bhaskarachalla/Youtube-Data-Harvesting/assets/157194398/60fe0bb2-32be-4df6-8304-dd20a9527c1d)
@@ -31,6 +35,7 @@ It then populates these tables with data fetched from MongoDB.
 
 
 Part 5: Streamlit Interface
+
 The script defines a Streamlit interface with various functionalities:
 
 ![image](https://github.com/bhaskarachalla/Youtube-Data-Harvesting/assets/157194398/f2a974e5-8328-4773-a679-3fa4aeb61676)
