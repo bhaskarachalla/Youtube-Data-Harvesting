@@ -1,5 +1,13 @@
              Youtube Data Harvesting and Warehousing
 
+Brief:
+1.	Importing Necessary Libraries: The script starts by importing essential libraries for tasks such as accessing the YouTube API, managing databases, and creating a user interface.
+2.	Functions for Interacting with YouTube API: It defines functions to interact with the YouTube API, allowing it to fetch data like channel information, video IDs, details, comments, and playlist details.
+3.	Uploading Data to MongoDB: The script connects to a MongoDB database and uploads various data (channel, playlist, video, and comment information) into collections for easy retrieval and manipulation.
+4.	Uploading Data to PostgreSQL: It establishes a connection to a PostgreSQL database, creates tables for storing different types of data, and populates these tables with information fetched from MongoDB.
+5.	Streamlit Interface: The script defines a Streamlit interface providing functionalities for users to interact with the data. Users can browse through channels, watch videos, read comments, and perform tasks like collecting new data, migrating it to SQL, and visualizing it.
+
+
 Part 1: Importing Necessary Libraries
 
 The script begins by importing libraries that are essential for different tasks it will perform:
